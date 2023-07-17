@@ -14,6 +14,9 @@ img {
     height: 320px;
 }
 
+img:hover {
+    transform: scale(1.1);
+}
 
 h1 {
     color: white;
@@ -32,6 +35,10 @@ ul {
 li {
     margin-bottom: 18px;
     list-style-type: none;
+}
+
+li:hover {
+    transform: scale(1.1);
 }
 
 a {
